@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(12, 31, 71);
+
+}
+
+h1{
+    text-align: center;
+    margin: 5%;
+    font-size: 10vw;
+    color: rgb(213, 216, 247);
+}
+
+label{
+    color: lightcoral;
+}
+
+nav{
+    width: fit-content;
+    margin: auto;
+    font-size: 2vw;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(213, 216, 247);
+}
+
+a:hover{
+    font-size: 4vw;
+    color: rgb(69, 83, 241);
+}
+
+p{
+    margin: 5% 10% 0 10%;
+    font-size: 2vw;
+    color: rgb(213, 216, 247);
+}
+
+p>a{
+    text-decoration-line:underline;
+}
+
+.summer{
+    background-color: rgb(142, 160, 41);
+}
+
+.spring{
+    background-color: rgb(9, 48, 14);
+}
