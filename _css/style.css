@@ -1,13 +1,23 @@
 body {
-  background-color: aquamarine;
+  background-image: url(/_img/mohammad-rahmani-8qEB0fTe9Vw-unsplash.jpg);
+  background-size: cover;
 }
 
-h1{
-    font-size: 5vw;
-    text-align: center;
-    margin-top: 40px;
+Header {
+  background: linear-gradient(143deg, #4346fc 20%,#51e4ff 50%, #001dfd 100%);
+  box-shadow: 0px 0px 55px -8px #001dfd;
+  width: fit-content;
+  margin: auto;
+  border-radius: 30px;
 }
 
+h1 {
+  font-size: 6vw;
+  text-align: center;
+  margin-top: 40px;
+  padding: 5vw;
+}
+/* Menu Button  */
 button {
   background: rgb(31, 54, 158);
   border-radius: 12px;
@@ -19,7 +29,7 @@ span {
   display: block;
   padding: 12px 42px;
   border-radius: 12px;
-  font-size: 30px;
+  font-size: 18px;
   background: rgb(34, 67, 214);
   color: rgb(229, 239, 250);
   transform: translateY(-10px);
@@ -29,6 +39,8 @@ nav {
   margin: 5vw 0 0 10vw;
   position: relative;
   display: inline-block;
+  padding: 5vw;
+  margin-left: 6vw;
 }
 
 div {
@@ -56,4 +68,10 @@ div a:hover {
 
 nav:hover div {
   display: block;
+}
+
+footer{
+  background-color: #01118d;
+  height: 10vh;
+  margin-top: 55vh;
 }
